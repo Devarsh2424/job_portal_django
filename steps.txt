@@ -1,0 +1,12 @@
+uv init
+uv add django
+.\.venv\Scripts\activate
+django-admin startproject jobportal .
+uv run manage.py startapp jobs
+uv run manage.py startapp accounts
+register apps in installed apps (settings.py)
+write models in accounts to create a custom user
+uv run manage.py makemigrations
+uv run manage.py migrate
+uv run manage.py createsuperuser
+register models in admin.py (accounts app)
