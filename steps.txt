@@ -13,3 +13,6 @@ register models in admin.py (accounts app)
 write AUTH_USER_MODEL in settings.py
 created relationship between job and application models using foreignkey (models.py in jobs) 
 register models in admin.py (jobs app)
+create forms.py in jobs app and create a job form
+write views.py in jobs app
+create a urls.py in jobs app
