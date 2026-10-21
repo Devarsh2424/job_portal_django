@@ -10,3 +10,6 @@ uv run manage.py makemigrations
 uv run manage.py migrate
 uv run manage.py createsuperuser
 register models in admin.py (accounts app)
+write AUTH_USER_MODEL in settings.py
+created relationship between job and application models using foreignkey (models.py in jobs) 
+register models in admin.py (jobs app)
